@@ -1,0 +1,7 @@
+{
+    "default": "//*[@itemprop='articleBody' or @itemprop='headline']",
+    "www.rbc.ru": "//*[(@class='article__header__title' or @class='article__text' or @class='article__content')]/*[not(@class) or (@class != 'article__inline-item__title' and @class != 'subscribe-infographic' and @class != 'article__picture__author' and @class != 'article__picture__title' and @class != 'article__picture')]",
+	"expert.ru": "//*[@class='__rusindustry_text']",
+	"habr.com": "//*[@class='post__body post__body_full']"
+}
+
